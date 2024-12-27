@@ -85,7 +85,7 @@ void showLogo() {
     display.println("Sensor:OK");
   } else {
     display.setCursor(10, 30);
-    display.println("Sensor:OK");
+    display.println("Sensor:ERROR");
   }
   display.display();
   delay(2000);
